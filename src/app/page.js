@@ -1,8 +1,14 @@
+import Herosection from "./components/Herosection";
 
 const Page = () => {
   return (
-    <>page</>
-  )
-}
+    <>
+      <Herosection
+        title={"LET'S WATCH MOVIE TOGETHER"}
+        imageUrl={"/home.svg"}
+      />
+    </>
+  );
+};
 
-export default Page
+export default Page;
