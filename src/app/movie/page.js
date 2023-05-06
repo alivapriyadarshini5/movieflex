@@ -2,6 +2,8 @@ import Link from "next/link";
 import MovieCard from "../components/MovieCard";
 import styles from "@/app/styles/common.module.css";
 const Page = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+
   const url = process.env.customKey;
   const options = {
     method: "GET",
