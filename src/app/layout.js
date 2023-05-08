@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
 import { Mulish, Roboto } from "next/font/google";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={mulish.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
